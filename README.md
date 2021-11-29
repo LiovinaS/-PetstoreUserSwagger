@@ -1,10 +1,13 @@
 О чем проект "PetstoreUserSwagger"
+
 This API test User for petstore.swagger.io 
+
 Демонстрация работы с бесплатным API сайта https://petstore.swagger.io
 
-Установка Newman
+Для начала, вам требуется, установить Newman
 
 Перед установкой убедитесь, что на вашем компьютере установлены Node.js и NPM.
+
 Для установки Newman откройте интерпретатор командной строки и введите команду:
 
 npm install -g newman 
