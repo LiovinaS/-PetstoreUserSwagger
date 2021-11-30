@@ -15,10 +15,18 @@ ________________________________________________________________________________
 _________________________________________________________________________________________
 ### Запуск коллекции тестов
 
-1. Скачайте файлы с коллекцией тестов (pet.swagger.user.postman_collection.json) и окружением (Pet.User.postman_environment.json) на свой компьютер.
+1. Скачайте файлы с коллекцией тестов `(pet.swagger.user.postman_collection.json)` и окружением `(Pet.User.postman_environment.json)` на свой компьютер.
 2. Откройте интерпретатор командной строки и перейдите в папку с сохраненными файлами.
 3. Введите команду:
 
-`newman run <коллекция тестов"pet.swagger.user.postman_collection.json"> -e <окружение"Pet.User.postman_environment.json">`
+`newman run <коллекция тестов "pet.swagger.user.postman_collection.json"> -e <окружение "Pet.User.postman_environment.json">`
 
+В файле `report_newman.png` вы можете увидеть результат запуска коллекции тестов.
+__________________________________________________________________________________________
 
+#### Ветка "first_branch_tests"
+В ветке `first_branch_tests` добавились новые тесты в файле `"pet.swagger.user.postman_collectionTests.json"`
+
+Ход действий точно такой же, только скачивайте новую коллекцию `"pet.swagger.user.postman_collectionTests.json"`, а окружение остается прежним.
+
+В файле `reportTests_newman.png` вы можете увидеть результат запуска новой коллекции тестов.
